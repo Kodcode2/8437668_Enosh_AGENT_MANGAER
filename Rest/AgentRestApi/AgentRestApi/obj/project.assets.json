@@ -4250,11 +4250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leyze\\source\\repos\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
+      "projectUniqueName": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
       "projectName": "AgentRestApi",
-      "projectPath": "C:\\Users\\leyze\\source\\repos\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
+      "projectPath": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\AgentRestApi.csproj",
       "packagesPath": "C:\\Users\\leyze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leyze\\source\\repos\\AgentsExam\\Rest\\AgentRestApi\\AgentRestApi\\obj\\",
+      "outputPath": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

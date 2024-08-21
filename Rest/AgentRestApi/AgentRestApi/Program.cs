@@ -1,4 +1,7 @@
 
+using AgentRestApi.Data;
+using AgentRestApi.Service;
+
 namespace AgentRestApi
 {
     public class Program
@@ -10,6 +13,9 @@ namespace AgentRestApi
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddDbContext<ApplicationDbContext>();
+            builder.Services.AddScoped<IAgentService, AgentService>();
+            builder.Services.AddScoped<ITargetService, TargetService>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
