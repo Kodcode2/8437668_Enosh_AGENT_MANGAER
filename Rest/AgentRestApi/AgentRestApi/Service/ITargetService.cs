@@ -5,12 +5,12 @@ namespace AgentRestApi.Service
 {
     public interface ITargetService
     {
-        Task<TagentModel> CreateTargettAsync(TargetDto targetDto);
+        Task<TargetModel> CreateTargettAsync(TargetDto targetDto);
 
-        Task<List<TagentModel>> GetAllAsync();
+        Task<List<TargetModel>> GetAllAsync();
 
-        Task<TagentModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id);
-        Task<TagentModel> MoveLocationByIdTargetAsync(MoveDto pinDto, int id);
+        Task<TargetModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id);
+        Task<TargetModel> MoveLocationByIdTargetAsync(MoveDto pinDto, int id);
 
     }
 

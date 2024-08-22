@@ -1,24 +1,23 @@
 ﻿using AgentRestApi.Dto;
-using AgentRestApi.Models;
 using AgentRestApi.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgentRestApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
-    public class AgentController(IAgentService agentService) : ControllerBase
+    public class TargetsController(ITargetService targetService) : ControllerBase
     {
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult> CreateAgent([FromBody] AgentDto agentDto)
+        public async Task<ActionResult> CreateTarget([FromBody] TargetDto targettDto)
         {
             try
             {
-                var agentModel = await agentService.CreateAgentAsync(agentDto);
-                return Created("new agent", agentModel);
+                var targetModel = await targetService.CreateTargettAsync(targettDto);
+                return Created("new agent", targetModel.Id);
             }
             catch (Exception ex)
             {
@@ -28,7 +27,7 @@ namespace AgentRestApi.Controllers
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult> GetAllAgents() =>
-          Ok(await agentService.GetAllAsync());
+          Ok(await targetService.GetAllAsync());
 
         [HttpPut("{id}/pin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -37,8 +36,8 @@ namespace AgentRestApi.Controllers
         {
             try
             {
-                var location = await agentService.UpdateLocationByIdAgentAsync(locationDto, id);
-                return Ok(location);
+                var location = await targetService.UpdateLocationByIdTargetAsync(locationDto, id);
+                return Ok( location);
             }
             catch (Exception ex)
             {
@@ -49,16 +48,18 @@ namespace AgentRestApi.Controllers
         [HttpPut("{id}/moev")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult> UpdateMoveLocationByIdAsync(MoveDto movDto, int id)
+        public async Task<ActionResult> UpdateMoveLocationByIdAsync(MoveDto pinDto, int id)
         {
             try
             {
-                return Ok(await agentService.MoveLocationByIdAgentAsync(movDto, id));
+              return  Ok(await targetService.MoveLocationByIdTargetAsync(pinDto, id));
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
         }
+
     }
 }
+

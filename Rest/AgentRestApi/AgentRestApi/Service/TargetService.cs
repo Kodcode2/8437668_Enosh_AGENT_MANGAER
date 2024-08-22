@@ -7,13 +7,13 @@ namespace AgentRestApi.Service
 {
     public class TargetService(ApplicationDbContext context) : ITargetService
     {
-        public async Task<TagentModel> CreateTargettAsync(TargetDto targetDto)
+        public async Task<TargetModel> CreateTargettAsync(TargetDto targetDto)
         {
             if (targetDto == null)
             {
                 throw new Exception("You have not entered any value");
             }
-            TagentModel targetModel = new()
+            TargetModel targetModel = new()
             {
                 Name = targetDto.Name,
                 Position = targetDto.Position,
@@ -24,10 +24,10 @@ namespace AgentRestApi.Service
             await context.SaveChangesAsync();
             return targetModel;
         }
-        public async Task<List<TagentModel>> GetAllAsync() =>
+        public async Task<List<TargetModel>> GetAllAsync() =>
          await context.Targets.ToListAsync();
 
-        public async Task<TagentModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id)
+        public async Task<TargetModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id)
         {
             var byId = await context.Targets.FindAsync(id);
             if (byId.LocationX < 0 || byId.LocationX > 1000 ||
@@ -57,7 +57,7 @@ namespace AgentRestApi.Service
 
         };
 
-        public async Task<TagentModel> MoveLocationByIdTargetAsync(MoveDto moveDto, int id)
+        public async Task<TargetModel> MoveLocationByIdTargetAsync(MoveDto moveDto, int id)
         {
             bool IsExsit = dicMove.TryGetValue(moveDto.Direction, out var result);
 

@@ -2,11 +2,12 @@
 
 namespace AgentRestApi.Models
 {
-    public class TagentModel
+    public class TargetModel
     {
         public enum Status
         {
             live,
+            ThereIsAnAgentAttached,
             elimintated
         }
 

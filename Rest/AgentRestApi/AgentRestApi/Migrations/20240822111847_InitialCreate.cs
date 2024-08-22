@@ -20,7 +20,7 @@ namespace AgentRestApi.Migrations
                     PhotoUrl = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     LocationX = table.Column<int>(type: "int", nullable: false),
                     LocationY = table.Column<int>(type: "int", nullable: false),
-                    Agentstatus = table.Column<int>(type: "int", nullable: false)
+                    Agentstatus = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -38,7 +38,7 @@ namespace AgentRestApi.Migrations
                     PhotoUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LocationX = table.Column<int>(type: "int", nullable: false),
                     LocationY = table.Column<int>(type: "int", nullable: false),
-                    TargetStatus = table.Column<int>(type: "int", nullable: false)
+                    TargetStatus = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -55,9 +55,7 @@ namespace AgentRestApi.Migrations
                     AgentId = table.Column<int>(type: "int", nullable: false),
                     TimeLeft = table.Column<double>(type: "float", nullable: false),
                     ExecuteTime = table.Column<double>(type: "float", nullable: false),
-                    MissionStatus = table.Column<int>(type: "int", nullable: false),
-                    AgentModelId = table.Column<int>(type: "int", nullable: true),
-                    TargetModelId = table.Column<int>(type: "int", nullable: true)
+                    MissionStatus = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -67,23 +65,13 @@ namespace AgentRestApi.Migrations
                         column: x => x.AgentId,
                         principalTable: "Agents",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Missions_Agents_AgentModelId",
-                        column: x => x.AgentModelId,
-                        principalTable: "Agents",
-                        principalColumn: "Id");
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Missions_Targets_TargetId",
                         column: x => x.TargetId,
                         principalTable: "Targets",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Missions_Targets_TargetModelId",
-                        column: x => x.TargetModelId,
-                        principalTable: "Targets",
-                        principalColumn: "Id");
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -92,19 +80,9 @@ namespace AgentRestApi.Migrations
                 column: "AgentId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Missions_AgentModelId",
-                table: "Missions",
-                column: "AgentModelId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Missions_TargetId",
                 table: "Missions",
                 column: "TargetId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Missions_TargetModelId",
-                table: "Missions",
-                column: "TargetModelId");
         }
 
         /// <inheritdoc />

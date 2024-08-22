@@ -13,7 +13,7 @@ namespace AgentRestApi.Data
         }
         public DbSet<MissionModel> Missions { get; set; }
         public DbSet<AgentModel> Agents { get; set; }
-        public DbSet<TagentModel> Targets { get; set; }
+        public DbSet<TargetModel> Targets { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -22,7 +22,7 @@ namespace AgentRestApi.Data
                 .HasConversion<string>()
                 .IsRequired();
 
-            modelBuilder.Entity<TagentModel>()
+            modelBuilder.Entity<TargetModel>()
                .Property(x => x.TargetStatus)
                .HasConversion<string>()
                .IsRequired();
