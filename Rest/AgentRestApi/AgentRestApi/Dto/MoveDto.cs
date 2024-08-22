@@ -1,6 +1,6 @@
 ﻿namespace AgentRestApi.Dto
 {
-    public class PinDto
+    public class MoveDto
     {
        public string? Direction { get; set; } 
     }

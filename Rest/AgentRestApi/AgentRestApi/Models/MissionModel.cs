@@ -14,7 +14,7 @@
         public int TargetId { get; set; }
 
         public int AgentId { get; set; }
-        public TargetModel Targets { get; set; }
+        public TagentModel Targets { get; set; }
         public AgentModel Agent { get; set; }
 
         public double TimeLeft { get; set; }

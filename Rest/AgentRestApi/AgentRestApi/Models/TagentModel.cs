@@ -2,7 +2,7 @@
 
 namespace AgentRestApi.Models
 {
-    public class TargetModel
+    public class TagentModel
     {
         public enum Status
         {

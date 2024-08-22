@@ -7,13 +7,13 @@ namespace AgentRestApi.Service
 {
     public class TargetService(ApplicationDbContext context) : ITargetService
     {
-        public async Task<TargetModel> CreateTargettAsync(TargetDto targetDto)
+        public async Task<TagentModel> CreateTargettAsync(TargetDto targetDto)
         {
             if (targetDto == null)
             {
                 throw new Exception("You have not entered any value");
             }
-            TargetModel targetModel = new()
+            TagentModel targetModel = new()
             {
                 Name = targetDto.Name,
                 Position = targetDto.Position,
@@ -24,10 +24,10 @@ namespace AgentRestApi.Service
             await context.SaveChangesAsync();
             return targetModel;
         }
-        public async Task<List<TargetModel>> GetAllAsync() =>
+        public async Task<List<TagentModel>> GetAllAsync() =>
          await context.Targets.ToListAsync();
 
-        public async Task<TargetModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id)
+        public async Task<TagentModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id)
         {
             var byId = await context.Targets.FindAsync(id);
             if (byId.LocationX < 0 || byId.LocationX > 1000 ||
@@ -57,13 +57,13 @@ namespace AgentRestApi.Service
 
         };
 
-        public async Task<TargetModel> MoveLocationByIdTargetAsync(PinDto pinDto, int id)
+        public async Task<TagentModel> MoveLocationByIdTargetAsync(MoveDto moveDto, int id)
         {
-            bool IsExsit = dicMove.TryGetValue(pinDto.Direction, out var result);
+            bool IsExsit = dicMove.TryGetValue(moveDto.Direction, out var result);
 
             if (!IsExsit)
             {
-                throw new Exception($"The value you entered is not equal to the {pinDto.Direction} location");
+                throw new Exception($"The value you entered is not equal to the {moveDto.Direction} location");
             }
             var byId = await context.Targets.FindAsync( id);
             if ( byId == null)
@@ -71,8 +71,8 @@ namespace AgentRestApi.Service
                 throw new Exception($"No ID {id} found");
             }
 
-            byId.LocationX += dicMove[pinDto.Direction].x;
-            byId.LocationY += dicMove[pinDto.Direction].y;
+            byId.LocationX += dicMove[moveDto.Direction].x;
+            byId.LocationY += dicMove[moveDto.Direction].y;
 
             if(byId.LocationX < 0 || byId.LocationX > 1000 ||
              byId.LocationY < 0 || byId.LocationY > 1000 )

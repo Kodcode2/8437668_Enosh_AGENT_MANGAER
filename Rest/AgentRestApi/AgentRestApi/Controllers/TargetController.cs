@@ -9,7 +9,7 @@ namespace AgentRestApi.Controllers
     [ApiController]
     public class TargetController(ITargetService targetService) : ControllerBase
     {
-        [HttpPost("CreateAgentAsync")]
+        [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> CreateTarget([FromBody] TargetDto targettDto)
@@ -48,7 +48,7 @@ namespace AgentRestApi.Controllers
         [HttpPut("{id}/moev")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult> UpdateMoveLocationByIdAsync(PinDto pinDto, int id)
+        public async Task<ActionResult> UpdateMoveLocationByIdAsync(MoveDto pinDto, int id)
         {
             try
             {
