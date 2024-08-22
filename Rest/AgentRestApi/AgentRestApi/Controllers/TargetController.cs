@@ -28,6 +28,38 @@ namespace AgentRestApi.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult> GetAllAgents() =>
           Ok(await targetService.GetAllAsync());
+
+        [HttpPut("{id}/pin")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> CrearLoction([FromBody] LocationDto locationDto, int id)
+        {
+            try
+            {
+                var location = await targetService.UpdateLocationByIdTargetAsync(locationDto, id);
+                return Ok( location);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut("{id}/moev")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> UpdateMoveLocationByIdAsync(PinDto pinDto, int id)
+        {
+            try
+            {
+              return  Ok(await targetService.MoveLocationByIdTargetAsync(pinDto, id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }
 

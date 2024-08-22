@@ -24,6 +24,6 @@ namespace AgentRestApi.Models
 
         public Status TargetStatus { get; set; }
 
-        public List<MissionModel> Mission { get; set; } = [];
+        
     }
 }

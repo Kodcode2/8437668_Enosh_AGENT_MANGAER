@@ -17,15 +17,28 @@ namespace AgentRestApi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<AgentModel>()
+                .Property(x => x.Agentstatus)
+                .HasConversion<string>()
+                .IsRequired();
+
+            modelBuilder.Entity<TargetModel>()
+               .Property(x => x.TargetStatus)
+               .HasConversion<string>()
+               .IsRequired();
+
             modelBuilder.Entity<MissionModel>()
                 .HasOne(m => m.Agent)
-                .WithMany()
-                .HasForeignKey(m => m.AgentId);
+                .WithMany(m => m.Missions)               
+                .HasForeignKey(m => m.AgentId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<MissionModel>()
                 .HasOne(m => m.Targets)
                 .WithMany()
-                .HasForeignKey(m => m.TargetId);
+                .HasForeignKey(m => m.TargetId)
+                .OnDelete(DeleteBehavior.Restrict);
+            
 
             base.OnModelCreating(modelBuilder);
         }

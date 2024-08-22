@@ -8,5 +8,10 @@ namespace AgentRestApi.Service
         Task<TargetModel> CreateTargettAsync(TargetDto targetDto);
 
         Task<List<TargetModel>> GetAllAsync();
+
+        Task<TargetModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id);
+        Task<TargetModel> MoveLocationByIdTargetAsync(PinDto pinDto, int id);
+
     }
+
 }
