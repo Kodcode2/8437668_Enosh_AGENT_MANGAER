@@ -7,7 +7,7 @@ namespace AgentRestApi.Service
 {
     public class TargetService(ApplicationDbContext context) : ITargetService
     {
-        public async Task<TargetModel> CreateTargettAsync(TargetDto targetDto)
+        public async Task<RestDto?> CreateTargetAsync(TargetDto targetDto)
         {
             if (targetDto == null)
             {
@@ -22,24 +22,24 @@ namespace AgentRestApi.Service
             };
             await context.AddAsync(targetModel);
             await context.SaveChangesAsync();
-            return targetModel;
+            return new() { id = targetModel.Id};
         }
         public async Task<List<TargetModel>> GetAllAsync() =>
          await context.Targets.ToListAsync();
 
         public async Task<TargetModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id)
         {
-            var byId = await context.Targets.FindAsync(id);
-            if (byId.LocationX < 0 || byId.LocationX > 1000 ||
-             byId.LocationY < 0 || byId.LocationY > 1000 || byId == null)
-            {
-                throw new Exception("The value you entered is invalid or no ID found");
-            }
-            byId = new()
-            {
-                LocationX = locationDto.LocationX,
-                LocationY = locationDto.LocationY,
-            };
+           var byId = await context.Targets.FindAsync(id);
+            //    if (byId.LocationX < 0 || byId.LocationX > 1000 ||
+            //     byId.LocationY < 0 || byId.LocationY > 1000 || byId == null)
+            //    {
+            //        throw new Exception("The value you entered is invalid or no ID found");
+            //    }
+
+
+            byId.LocationX = locationDto.X;
+            byId.LocationY = locationDto.Y;
+            
             await context.SaveChangesAsync();
             return byId;    
 

@@ -10,14 +10,14 @@ namespace AgentRestApi.Controllers
     public class TargetsController(ITargetService targetService) : ControllerBase
     {
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult> CreateTarget([FromBody] TargetDto targettDto)
+        public async Task<ActionResult<RestDto?>> CreateTarget([FromBody] TargetDto targettDto)
         {
             try
             {
-                var targetModel = await targetService.CreateTargettAsync(targettDto);
-                return Created("new agent", targetModel.Id);
+              
+                return Ok(await targetService.CreateTargetAsync(targettDto));
             }
             catch (Exception ex)
             {
@@ -45,7 +45,7 @@ namespace AgentRestApi.Controllers
             }
         }
 
-        [HttpPut("{id}/moev")]
+        [HttpPut("{id}/move")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> UpdateMoveLocationByIdAsync(MoveDto pinDto, int id)

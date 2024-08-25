@@ -5,7 +5,7 @@ namespace AgentRestApi.Service
 {
     public interface ITargetService
     {
-        Task<TargetModel> CreateTargettAsync(TargetDto targetDto);
+        Task<RestDto?> CreateTargetAsync(TargetDto targetDto);
 
         Task<List<TargetModel>> GetAllAsync();
 

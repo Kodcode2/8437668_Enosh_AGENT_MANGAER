@@ -5,7 +5,7 @@ namespace AgentRestApi.Service
 {
     public interface IAgentService
     {
-        Task<AgentModel> CreateAgentAsync(AgentDto agentDto);
+        Task<RestDto> CreateAgentAsync(AgentDto agentDto);
 
         Task<AgentModel> UpdateAgenByIdtAsync(AgentDto agentDto, int id);
 

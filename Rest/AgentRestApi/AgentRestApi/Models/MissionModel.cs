@@ -5,7 +5,7 @@
         public enum Status
         {
             taskProposal,
-            MitzvahForTheTask,
+            TheMissionIsOccupied,
             TheMissionIsOver
 
         }
@@ -19,7 +19,8 @@
 
         public double TimeLeft { get; set; }
 
-        public double ExecuteTime {  get; set; }
+        public DateTime taskStartTime { get; set; }
+        public string? ExecuteTime {  get; set; }
 
         public Status MissionStatus { get; set; }
 

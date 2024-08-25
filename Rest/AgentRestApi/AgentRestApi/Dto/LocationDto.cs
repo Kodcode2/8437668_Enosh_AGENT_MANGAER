@@ -2,8 +2,8 @@
 {
     public class LocationDto
     {
-        public int LocationX { get; set; }
+        public int X { get; set; }
 
-        public int LocationY { get; set; }
+        public int Y { get; set; }
     }
 }

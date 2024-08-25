@@ -5,9 +5,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AgentRestApi.Service
 {
-    public class AgentService(ApplicationDbContext context)  : IAgentService
+    public class AgentService(ApplicationDbContext context, IServiceProvider serviceProvider) : IAgentService
     {
-        public async Task<AgentModel> CreateAgentAsync(AgentDto agentDto)
+        private IMissionService missionService = serviceProvider.GetRequiredService<IMissionService>();
+        public async Task<RestDto> CreateAgentAsync(AgentDto agentDto)
         {
             if (agentDto == null)
             {
@@ -20,7 +21,7 @@ namespace AgentRestApi.Service
             };
             await context.AddAsync(agentModel);
             await context.SaveChangesAsync();
-            return agentModel;
+            return  new() { id  =  agentModel.Id};
         }
 
         public async Task<AgentModel> UpdateAgenByIdtAsync(AgentDto agentDto, int id)
@@ -46,16 +47,15 @@ namespace AgentRestApi.Service
         {
             var byId = await context.Agents.FindAsync(id);
 
-            if (byId.LocationX < 0 || byId.LocationX > 1000 ||
-             byId.LocationY < 0 || byId.LocationY > 1000 || byId == null)
-            {
-                throw new Exception("The value you entered is invalid or no ID found");
-            }
-            byId = new()
-            {
-                LocationX = locationDto.LocationX,
-                LocationY = locationDto.LocationY,
-            };
+            //if (byId.LocationX < 0 || byId.LocationX > 1000 ||
+            // byId.LocationY < 0 || byId.LocationY > 1000 || byId == null)
+            //{
+            //    throw new Exception("The value you entered is invalid or no ID found");
+            //}
+
+            byId.LocationX = locationDto.X;
+            byId.LocationY = locationDto.Y;
+            //await missionService.CreateMission(byId.Id);
             await context.SaveChangesAsync();
             return byId;
 
@@ -97,6 +97,7 @@ namespace AgentRestApi.Service
                 throw new Exception("The value you entered is invalid or no ID found");
             }
 
+            await missionService.CreateMission(byId.Id);
             await context.SaveChangesAsync();
             return byId;
         
