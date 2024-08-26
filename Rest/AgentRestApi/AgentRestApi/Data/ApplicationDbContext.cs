@@ -28,6 +28,11 @@ namespace AgentRestApi.Data
                .IsRequired();
 
             modelBuilder.Entity<MissionModel>()
+               .Property(x => x.MissionStatus)
+               .HasConversion<string>()
+               .IsRequired();
+
+            modelBuilder.Entity<MissionModel>()
                 .HasOne(m => m.Agent)
                 .WithMany(m => m.Missions)               
                 .HasForeignKey(m => m.AgentId)

@@ -27,15 +27,21 @@ namespace AgentRestApi.Service
 
                 foreach (var targetID in ThereIsAPerception)
                 {
-                    MissionModel msisson = new()
+                    MissionModel mission = new()
                     {
                         AgentId = agentId,
                         TargetId = targetID.Id,
                         TimeLeft = CalculationOfDistanceFromTarget(targetID, agentModel) / 5,
                         MissionStatus = MissionModel.Status.taskProposal,
+
                         
                     };
-                    missionModel.Add(msisson);
+                    bool exist = context.Missions.Any(m => m.AgentId == mission.AgentId && m.TargetId == mission.TargetId);
+                    if (exist)
+                    {
+                        continue;
+                    }
+                    missionModel.Add(mission);
                 }
                 await context.Missions.AddRangeAsync(missionModel);
                 await context.SaveChangesAsync();
@@ -80,8 +86,8 @@ namespace AgentRestApi.Service
                 if (!EliminatesTheTarget(agentModel, targetModel))
                 {
                     id.TimeLeft = CalculationOfDistanceFromTarget(id.Targets, id.Agent) / 5;
-                    await context.SaveChangesAsync();
                     MoveAgentMssion(agentModel, targetModel);
+                    await context.SaveChangesAsync();
                 }
                 else
                 {
@@ -89,6 +95,7 @@ namespace AgentRestApi.Service
                     targetModel.TargetStatus = TargetModel.Status.elimintated;
                     id.MissionStatus = MissionModel.Status.TheMissionIsOver;
                     id.ExecuteTime = $"{DateTime.Now - id.taskStartTime:mm\\:ss}";
+                    await context.SaveChangesAsync();
                 }
             }
             return missions;

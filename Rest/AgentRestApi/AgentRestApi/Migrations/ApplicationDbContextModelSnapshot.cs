@@ -69,8 +69,9 @@ namespace AgentRestApi.Migrations
                     b.Property<string>("ExecuteTime")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("MissionStatus")
-                        .HasColumnType("int");
+                    b.Property<string>("MissionStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TargetId")
                         .HasColumnType("int");
