@@ -7,7 +7,8 @@ namespace AgentRestApi.Service
 {
     public class TargetService(ApplicationDbContext context) : ITargetService
     {
-        public async Task<RestDto?> CreateTargetAsync(TargetDto targetDto)
+
+        public async Task<RestIdDto?> CreateTargetAsync(TargetDto targetDto)
         {
             if (targetDto == null)
             {
@@ -30,13 +31,8 @@ namespace AgentRestApi.Service
         public async Task<TargetModel> UpdateLocationByIdTargetAsync(LocationDto locationDto, int id)
         {
            var byId = await context.Targets.FindAsync(id);
-            //    if (byId.LocationX < 0 || byId.LocationX > 1000 ||
-            //     byId.LocationY < 0 || byId.LocationY > 1000 || byId == null)
-            //    {
-            //        throw new Exception("The value you entered is invalid or no ID found");
-            //    }
 
-
+            //Gets the location sent by the server
             byId.LocationX = locationDto.X;
             byId.LocationY = locationDto.Y;
             
@@ -44,6 +40,8 @@ namespace AgentRestApi.Service
             return byId;    
 
             }
+
+        //A dictionary that saves us the variables of the directions
         private readonly Dictionary<string, (int x, int y)> dicMove = new() 
         {
             {"n", (0,1) },
@@ -70,7 +68,7 @@ namespace AgentRestApi.Service
             {
                 throw new Exception($"No ID {id} found");
             }
-
+            //Moved to the point that received service
             byId.LocationX += dicMove[moveDto.Direction].x;
             byId.LocationY += dicMove[moveDto.Direction].y;
 

@@ -13,7 +13,7 @@ namespace AgentRestApi.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<RestDto>> CreateAgent([FromBody] AgentDto agentDto)
+        public async Task<ActionResult<RestIdDto>> CreateAgent([FromBody] AgentDto agentDto)
         {
             try
             {

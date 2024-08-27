@@ -1,7 +1,8 @@
 ﻿namespace AgentRestApi.Dto
 {
-    public class RestDto
+    public class RestIdDto
     {
+        //Returning an ID to the user
         public int id {  get; set; }
     }
 }

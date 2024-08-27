@@ -10,7 +10,7 @@ namespace AgentRestApi.Service
     public class MssionService(ApplicationDbContext context) : IMissionService
     {
 
-
+        //Constructs a task if it meets the conditions
         public async Task<List<MissionModel>> CreateMission(int agentId)
         {
             var agentModel = await FindByIdAgent(agentId);
@@ -36,6 +36,7 @@ namespace AgentRestApi.Service
 
                         
                     };
+                    //Book if it doesn't already exist
                     bool exist = context.Missions.Any(m => m.AgentId == mission.AgentId && m.TargetId == mission.TargetId);
                     if (exist)
                     {
@@ -52,7 +53,7 @@ namespace AgentRestApi.Service
 
         public async Task<List<MissionModel>> GetAllAsync() =>
       await context.Missions.ToListAsync();
-
+        //Updates the task and the active agent
         public async Task<MissionModel> UpdateMissiomStatus(int id)
         {
             var missionId = await context.Missions.FindAsync(id)
@@ -72,7 +73,7 @@ namespace AgentRestApi.Service
             }
             throw new Exception();
         }
-
+        //A function to serve for chasing the agent after the target and checking if he reached the target
         public async Task<List<MissionModel>> MissionUpdateMoveToTarget()
         {
             var missions = await context.Missions
@@ -100,6 +101,7 @@ namespace AgentRestApi.Service
             }
             return missions;
         }
+
         public double CalculationOfDistanceFromTarget(TargetModel targetModel, AgentModel agentModel)
         {
             var distance = Math.Sqrt(Math.Pow(agentModel.LocationX - targetModel.LocationX, 2) +
@@ -109,7 +111,7 @@ namespace AgentRestApi.Service
         public async Task<AgentModel> FindByIdAgent(int id) =>
             await context.Agents.FindAsync(id)
             ?? throw new Exception($"No ID {id} found");
-
+        //Checking if the goal has been reached
         public async Task<TargetModel> FindByIdTarget(int id) =>
            await context.Targets.FindAsync(id)
            ?? throw new Exception($"No ID {id} found");
@@ -121,6 +123,7 @@ namespace AgentRestApi.Service
             }
             return false;
         }
+        //Agent pursuit function after the target
 
         public AgentModel MoveAgentMssion(AgentModel agentModel, TargetModel targetModel)
         {

@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\dto\\restiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\dto\\restiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\service\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\service\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\service\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\service\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\service\\mssionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\service\\mssionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +35,8 @@
       "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\service\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\service\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\service\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\service\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\service\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\service\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\dto\\movedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\dto\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\dto\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\rest\\agentrestapi\\agentrestapi\\dto\\restdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883A8835-BBE1-4EBF-8498-CF7A25905B7F}|AgentRestApi\\AgentRestApi.csproj|solutionrelative:agentrestapi\\dto\\restdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 191,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,46 +94,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MssionService.cs",
-              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\MssionService.cs",
-              "RelativeDocumentMoniker": "AgentRestApi\\Service\\MssionService.cs",
-              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\MssionService.cs",
-              "RelativeToolTip": "AgentRestApi\\Service\\MssionService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwC4AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T06:04:26.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AgentService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\AgentService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Service\\AgentService.cs",
               "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\AgentService.cs",
               "RelativeToolTip": "AgentRestApi\\Service\\AgentService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwAkAAABnAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwGAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T06:26:45.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "RestIdDto.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\RestIdDto.cs",
+              "RelativeDocumentMoniker": "AgentRestApi\\Dto\\RestIdDto.cs",
+              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\RestIdDto.cs",
+              "RelativeToolTip": "AgentRestApi\\Dto\\RestIdDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T10:34:04.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MissionModel.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\MissionModel.cs",
+              "RelativeDocumentMoniker": "AgentRestApi\\Models\\MissionModel.cs",
+              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\MissionModel.cs",
+              "RelativeToolTip": "AgentRestApi\\Models\\MissionModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T07:39:18.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AgentRestApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AgentRestApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:05:49.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AgentsController.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Controllers\\AgentsController.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Controllers\\AgentsController.cs",
               "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Controllers\\AgentsController.cs",
               "RelativeToolTip": "AgentRestApi\\Controllers\\AgentsController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAiwD4AAAAIAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAmwD4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T10:34:22.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "TargetService.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\TargetService.cs",
+              "RelativeDocumentMoniker": "AgentRestApi\\Service\\TargetService.cs",
+              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\TargetService.cs",
+              "RelativeToolTip": "AgentRestApi\\Service\\TargetService.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwEYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T08:43:17.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MssionService.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\MssionService.cs",
+              "RelativeDocumentMoniker": "AgentRestApi\\Service\\MssionService.cs",
+              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\MssionService.cs",
+              "RelativeToolTip": "AgentRestApi\\Service\\MssionService.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAkwHEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T06:04:26.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "TargetsController.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Controllers\\TargetsController.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Controllers\\TargetsController.cs",
@@ -146,33 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TargetService.cs",
-              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\TargetService.cs",
-              "RelativeDocumentMoniker": "AgentRestApi\\Service\\TargetService.cs",
-              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\TargetService.cs",
-              "RelativeToolTip": "AgentRestApi\\Service\\TargetService.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAiwFUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T08:43:17.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MissionModel.cs",
-              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\MissionModel.cs",
-              "RelativeDocumentMoniker": "AgentRestApi\\Models\\MissionModel.cs",
-              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\MissionModel.cs",
-              "RelativeToolTip": "AgentRestApi\\Models\\MissionModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T07:39:18.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IAgentService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\IAgentService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Service\\IAgentService.cs",
@@ -185,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "TargetModel.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\TargetModel.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Models\\TargetModel.cs",
@@ -193,12 +219,11 @@
               "RelativeToolTip": "AgentRestApi\\Models\\TargetModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T06:03:19.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T06:03:19.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IMissionService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\IMissionService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Service\\IMissionService.cs",
@@ -210,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AgentModel.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Models\\AgentModel.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Models\\AgentModel.cs",
@@ -218,25 +243,11 @@
               "RelativeToolTip": "AgentRestApi\\Models\\AgentModel.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwBgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T15:13:55.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T15:13:55.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AgentRestApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "AgentRestApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAcwB4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T06:05:49.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LocationDto.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\LocationDto.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Dto\\LocationDto.cs",
@@ -248,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Program.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Program.cs",
@@ -256,12 +267,11 @@
               "RelativeToolTip": "AgentRestApi\\Program.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwBIAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T09:12:56.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T09:12:56.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TargetDto.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\TargetDto.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Dto\\TargetDto.cs",
@@ -273,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MissionsController.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Controllers\\MissionsController.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Controllers\\MissionsController.cs",
@@ -281,12 +291,11 @@
               "RelativeToolTip": "AgentRestApi\\Controllers\\MissionsController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAcwC4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T11:16:01.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T11:16:01.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MoveDto.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\MoveDto.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Dto\\MoveDto.cs",
@@ -294,12 +303,11 @@
               "RelativeToolTip": "AgentRestApi\\Dto\\MoveDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:49:34.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T13:49:34.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ITargetService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Service\\ITargetService.cs",
               "RelativeDocumentMoniker": "AgentRestApi\\Service\\ITargetService.cs",
@@ -307,19 +315,8 @@
               "RelativeToolTip": "AgentRestApi\\Service\\ITargetService.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAtwAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T10:42:00.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RestDto.cs",
-              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\RestDto.cs",
-              "RelativeDocumentMoniker": "AgentRestApi\\Dto\\RestDto.cs",
-              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Rest\\AgentRestApi\\AgentRestApi\\Dto\\RestDto.cs",
-              "RelativeToolTip": "AgentRestApi\\Dto\\RestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T10:34:04.483Z"
+              "WhenOpened": "2024-08-25T10:42:00.213Z",
+              "EditorCaption": ""
             }
           ]
         }

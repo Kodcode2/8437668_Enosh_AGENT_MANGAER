@@ -17,6 +17,8 @@ namespace AgentRestApi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //Saves us Status as a string
+
             modelBuilder.Entity<AgentModel>()
                 .Property(x => x.Agentstatus)
                 .HasConversion<string>()

@@ -12,7 +12,7 @@ namespace AgentRestApi.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<RestDto?>> CreateTarget([FromBody] TargetDto targettDto)
+        public async Task<ActionResult<RestIdDto?>> CreateTarget([FromBody] TargetDto targettDto)
         {
             try
             {

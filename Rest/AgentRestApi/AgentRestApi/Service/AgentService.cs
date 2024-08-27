@@ -7,8 +7,9 @@ namespace AgentRestApi.Service
 {
     public class AgentService(ApplicationDbContext context, IServiceProvider serviceProvider) : IAgentService
     {
+        //So that we don't have to service each other
         private IMissionService missionService = serviceProvider.GetRequiredService<IMissionService>();
-        public async Task<RestDto> CreateAgentAsync(AgentDto agentDto)
+        public async Task<RestIdDto> CreateAgentAsync(AgentDto agentDto)
         {
             if (agentDto == null)
             {
@@ -47,19 +48,15 @@ namespace AgentRestApi.Service
         {
             var byId = await context.Agents.FindAsync(id);
 
-            //if (byId.LocationX < 0 || byId.LocationX > 1000 ||
-            // byId.LocationY < 0 || byId.LocationY > 1000 || byId == null)
-            //{
-            //    throw new Exception("The value you entered is invalid or no ID found");
-            //}
 
+            //Gets the location sent by the server
             byId.LocationX = locationDto.X;
             byId.LocationY = locationDto.Y;
-            //await missionService.CreateMission(byId.Id);
             await context.SaveChangesAsync();
             return byId;
 
         }
+        //A dictionary that saves us the variables of the directions
         private readonly Dictionary<string, (int x, int y)> dicMove = new()
         {
             {"n", (0,1) },
@@ -87,7 +84,7 @@ namespace AgentRestApi.Service
             {
                 throw new Exception($"No ID {id} found");
             }
-
+            //Moved to the point that received service
             byId.LocationX += dicMove[moveDto.Direction].x;
             byId.LocationY += dicMove[moveDto.Direction].y;
 
@@ -96,7 +93,7 @@ namespace AgentRestApi.Service
             {
                 throw new Exception("The value you entered is invalid or no ID found");
             }
-
+            //Sending to check whether he has a mission from his range
             await missionService.CreateMission(byId.Id);
             await context.SaveChangesAsync();
             return byId;

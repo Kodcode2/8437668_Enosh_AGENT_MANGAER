@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|solutionrelative:agentrestvm\\service\\getallmissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\mvc\\agentrestvm\\agentrestvm\\agentrestvm\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|solutionrelative:agentrestvm\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\mvc\\agentrestvm\\agentrestvm\\agentrestvm\\modelvm\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|solutionrelative:agentrestvm\\modelvm\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\mvc\\agentrestvm\\agentrestvm\\agentrestvm\\service\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|solutionrelative:agentrestvm\\service\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\mvc\\agentrestvm\\agentrestvm\\agentrestvm\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|solutionrelative:agentrestvm\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A4932F2-211E-4E6B-8A98-057A35131C85}|AgentRestVM\\AgentRestVM.csproj|c:\\users\\leyze\\source\\repos\\8437668_enosh_agent_mangaer\\mvc\\agentrestvm\\agentrestvm\\agentrestvm\\service\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,33 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DashboardVM.cs",
-              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\ModelVM\\DashboardVM.cs",
-              "RelativeDocumentMoniker": "AgentRestVM\\ModelVM\\DashboardVM.cs",
-              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\ModelVM\\DashboardVM.cs",
-              "RelativeToolTip": "AgentRestVM\\ModelVM\\DashboardVM.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwA8AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:01:56.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GetAllMissionService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Service\\GetAllMissionService.cs",
               "RelativeDocumentMoniker": "AgentRestVM\\Service\\GetAllMissionService.cs",
               "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Service\\GetAllMissionService.cs",
               "RelativeToolTip": "AgentRestVM\\Service\\GetAllMissionService.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAgwBsAAAA3AAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAgwGEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T13:02:03.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IGetAllMissionService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Service\\IGetAllMissionService.cs",
               "RelativeDocumentMoniker": "AgentRestVM\\Service\\IGetAllMissionService.cs",
@@ -152,12 +139,11 @@
               "RelativeToolTip": "AgentRestVM\\Service\\IGetAllMissionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:01:23.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T13:01:23.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MissionVM.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\ModelVM\\MissionVM.cs",
               "RelativeDocumentMoniker": "AgentRestVM\\ModelVM\\MissionVM.cs",
@@ -165,12 +151,11 @@
               "RelativeToolTip": "AgentRestVM\\ModelVM\\MissionVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:22:17.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:22:17.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DetailsDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Views\\Mission\\DetailsDashboard.cshtml",
               "RelativeDocumentMoniker": "AgentRestVM\\Views\\Mission\\DetailsDashboard.cshtml",
@@ -178,38 +163,11 @@
               "RelativeToolTip": "AgentRestVM\\Views\\Mission\\DetailsDashboard.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-26T14:45:27.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T14:45:27.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MissionController.cs",
-              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Controllers\\MissionController.cs",
-              "RelativeDocumentMoniker": "AgentRestVM\\Controllers\\MissionController.cs",
-              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Controllers\\MissionController.cs",
-              "RelativeToolTip": "AgentRestVM\\Controllers\\MissionController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T09:27:26.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MIssionService.cs",
-              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Service\\MIssionService.cs",
-              "RelativeDocumentMoniker": "AgentRestVM\\Service\\MIssionService.cs",
-              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Service\\MIssionService.cs",
-              "RelativeToolTip": "AgentRestVM\\Service\\MIssionService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T06:51:31.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "MissionModel.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Models\\MissionModel.cs",
               "RelativeDocumentMoniker": "AgentRestVM\\Models\\MissionModel.cs",
@@ -222,6 +180,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardVM.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\ModelVM\\DashboardVM.cs",
+              "RelativeDocumentMoniker": "AgentRestVM\\ModelVM\\DashboardVM.cs",
+              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\ModelVM\\DashboardVM.cs",
+              "RelativeToolTip": "AgentRestVM\\ModelVM\\DashboardVM.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:01:56.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MissionController.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Controllers\\MissionController.cs",
+              "RelativeDocumentMoniker": "AgentRestVM\\Controllers\\MissionController.cs",
+              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Controllers\\MissionController.cs",
+              "RelativeToolTip": "AgentRestVM\\Controllers\\MissionController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:27:26.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MIssionService.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Service\\MIssionService.cs",
+              "RelativeDocumentMoniker": "AgentRestVM\\Service\\MIssionService.cs",
+              "ToolTip": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Service\\MIssionService.cs",
+              "RelativeToolTip": "AgentRestVM\\Service\\MIssionService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:51:31.149Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "IMissionService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\source\\repos\\8437668_Enosh_AGENT_MANGAER\\Mvc\\AgentRestVM\\AgentRestVM\\AgentRestVM\\Service\\IMissionService.cs",
@@ -230,8 +224,7 @@
               "RelativeToolTip": "AgentRestVM\\Service\\IMissionService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T06:50:59.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T06:50:59.594Z"
             },
             {
               "$type": "Document",
@@ -243,8 +236,7 @@
               "RelativeToolTip": "AgentRestVM\\Views\\Target\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-26T13:38:24.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T13:38:24.26Z"
             },
             {
               "$type": "Document",
@@ -256,8 +248,7 @@
               "RelativeToolTip": "AgentRestVM\\ModelVM\\AgentVM.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T11:16:20.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T11:16:20.553Z"
             },
             {
               "$type": "Document",
@@ -269,8 +260,7 @@
               "RelativeToolTip": "AgentRestVM\\Models\\AgentModel.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAQwBgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:12:10.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:12:10.929Z"
             },
             {
               "$type": "Document",
@@ -282,8 +272,7 @@
               "RelativeToolTip": "AgentRestVM\\Service\\AgentService.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwDAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:31:45.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:31:45.274Z"
             },
             {
               "$type": "Document",
@@ -295,8 +284,7 @@
               "RelativeToolTip": "AgentRestVM\\Controllers\\TargetController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:35:57.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T13:35:57.598Z"
             },
             {
               "$type": "Document",
@@ -308,8 +296,7 @@
               "RelativeToolTip": "AgentRestVM\\Controllers\\AgentController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T11:59:04.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T11:59:04.522Z"
             },
             {
               "$type": "Document",
@@ -321,8 +308,7 @@
               "RelativeToolTip": "AgentRestVM\\Models\\TargetModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:16:20.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:16:20.34Z"
             },
             {
               "$type": "Document",
@@ -334,8 +320,7 @@
               "RelativeToolTip": "AgentRestVM\\Service\\ITargetService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:38:08.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:38:08.242Z"
             },
             {
               "$type": "Document",
@@ -347,8 +332,7 @@
               "RelativeToolTip": "AgentRestVM\\Service\\TargetService.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAgwBsAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:38:31.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:38:31.342Z"
             },
             {
               "$type": "Document",
@@ -360,8 +344,7 @@
               "RelativeToolTip": "AgentRestVM\\ModelVM\\TargetVM.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:20:08.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T13:20:08.669Z"
             },
             {
               "$type": "Document",
@@ -373,8 +356,7 @@
               "RelativeToolTip": "AgentRestVM\\Views\\Agent\\Index.cshtml",
               "ViewState": "AQIAAE0AAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-26T12:01:29.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T12:01:29.747Z"
             },
             {
               "$type": "Document",
@@ -422,8 +404,7 @@
               "RelativeToolTip": "AgentRestVM\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T06:22:55.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T06:22:55.556Z"
             }
           ]
         }

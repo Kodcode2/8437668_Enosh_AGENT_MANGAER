@@ -1,5 +1,7 @@
 ﻿using AgentRestVM.Models;
 using AgentRestVM.ModelVM;
+using System.Text;
+using System.Text.Json;
 
 namespace AgentRestVM.Service
 {
@@ -74,6 +76,25 @@ namespace AgentRestVM.Service
                 RelationOfAgentsToPossibleTargets = RelationOfAgentsToPossibleTargets,             
             };
             return dashboardVM;
+        }
+
+        public async Task<string> UpdateMissionToActive(int id)
+        {
+            var httpClient = clientFactory.CreateClient();
+            var request = new HttpRequestMessage(HttpMethod.Put, $"http://localhost:5226/Missions/{id}");
+            var httpContent = new StringContent(
+                JsonSerializer.Serialize
+                ("status : assigned"),
+                Encoding.UTF8,
+                "application/json"
+              );
+            request.Content = httpContent;
+            var res = await httpClient.SendAsync(request);
+            if (res.IsSuccessStatusCode)
+            {
+                return "Success";
+            }
+            return "Not Succsess";
         }
     }
 }
